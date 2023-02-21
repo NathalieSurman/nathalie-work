@@ -1,0 +1,122 @@
+header {
+    /* height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden; */
+    /* display: grid; */
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    gap: 2px;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    /* new */
+    /* margin-left: 200px; */
+
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.child{
+    margin-left: 400px;
+}
+
+.header__content{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+/* ---- HERE WE WILL STYLE THE CTA ---- */
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+
+/* ---- HERE WE WILL STYLE THE HEADER SOCIALS ---- */
+
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    gap: 0.8rem;
+    /* left: 0; */
+    bottom: 3rem;
+}
+
+.header__socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background-color: var(--color-primary);
+}
+
+
+/* ---- MY IMAGE ---- */
+
+.me__image {
+    margin-top: 20px;
+    width: 400px;
+    height: 550px;
+    border-radius: 2rem;
+    overflow: hidden;
+    /* transition: var(--transition); */
+}
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+}
+
+/* ---- HERE WE WILL STYLE SCROLL DOWN ---- */
+.scroll__down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+
+/* ----- HERE WILL BE THE MEDIA QUERIED FOR MEDIUM SIZE DEVICES----- */
+
+@media only screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}
+
+/* ----- HERE WILL BE THE MEDIA QUERIED FOR SMALL SIZE DEVICES LIKE PHONES----- */
+
+@media only screen and (max-width: 600px) {
+
+    header {
+        height: 100vh;
+    }
+
+    .header__socials, .scroll__down {
+        display: none;
+    }
+}
