@@ -1,11 +1,6 @@
 header {
-    /* height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden; */
-    /* display: grid; */
     justify-content: center;
     align-items: center;
-    margin-left: 80px;
     gap: 2px;
 }
 
@@ -13,9 +8,6 @@ header {
     text-align: center;
     height: 100%;
     position: relative;
-    /* new */
-    /* margin-left: 200px; */
-
     justify-content: center;
     align-items: center;
 }
@@ -100,17 +92,39 @@ header {
 }
 
 
-/* ----- HERE WILL BE THE MEDIA QUERIED FOR MEDIUM SIZE DEVICES----- */
 
-@media only screen and (max-width: 1024px) {
+
+/* ---- HERE IS FOR: tablets size or For Laptop or small-size screen ----*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 500px;
+        padding-top: 1rem;
+        /* margin-right: 5rem; */
     }
 }
 
+
+
+/* ----For Mobile Phones Portrait or Landscape View ----*/
+@media screen and (max-device-width: 640px) {
+    header {
+        height: 100vh;
+        margin-right: 8rem;
+    }
+
+    .header__socials, .scroll__down {
+        display: none;
+    }
+}
+
+
+
+/* NOT USING BUT MIGHT NEED IT SO I AM KEEPING IT HERE*/
+
 /* ----- HERE WILL BE THE MEDIA QUERIED FOR SMALL SIZE DEVICES LIKE PHONES----- */
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
 
     header {
         height: 100vh;
@@ -119,4 +133,12 @@ header {
     .header__socials, .scroll__down {
         display: none;
     }
-}
+} */
+
+/* ----- HERE WILL BE THE MEDIA QUERIED FOR MEDIUM SIZE DEVICES----- */
+
+/* @media only screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+} */

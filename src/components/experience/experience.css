@@ -1,7 +1,8 @@
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* gap: 0.5rem; */
+    gap: 0.5rem;
+    padding-left: 80px;
 }
 .section__experience{
     display: grid;
@@ -11,11 +12,13 @@
 
 .experience__container > div {
     background: var(--color-bg-variant);
-    padding: 2.4rem 8rem;
+    /* padding: 2.4rem 8rem; */
+    padding: 1rem 6rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-    margin-left: 150px;
+    margin-left: 100px;
+
 }
 
 
@@ -35,6 +38,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
+    gap: 25px;
+
 }
 
 .experience__details {
@@ -43,9 +48,58 @@
 
 }
 
+
+/*--- HERE IS FOR: tablets size or For Laptop or small-size screen:*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .experience__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .experience__content{
+        padding: 1rem;
+    }
+    .section__experience{
+        margin-left: 13rem;
+    }
+}
+
+
+
+/* ---- For Mobile Phones Portrait or Landscape View ----*/
+@media screen and (max-device-width: 640px) {
+    .experience__container {
+        gap: 8rem;
+        
+    }
+    .experience__container > div {
+        width: 100%;
+        padding: 4rem 2rem;
+        margin: 0 auto;
+    }
+    .section__experience{
+    padding-left: 4rem;
+    }
+    .section__experience > h2 {
+        padding-left: 6rem;
+        }
+        .section__experience > h5 {
+            padding-left: 6rem;
+            }
+}
+
+
+
+/* NOT USING BUT MIGHT NEED IT SO I AM KEEPING IT HERE*/
+
 /* ----- HERE WILL BE THE MEDIA QUERIED FOR MEDIUM SIZE DEVICES----- */
 
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
     .experience__container {
         grid-template-columns: 1fr;
     }
@@ -57,11 +111,11 @@
     .experience__content{
         padding: 1rem;
     }
-}
+} */
 
 /* ----- HERE WILL BE THE MEDIA QUERIED FOR SMALL SIZE DEVICES LIKE PHONES----- */
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .experience__container {
         gap: 1rem;
     }
@@ -70,4 +124,5 @@
         padding: 2rem 1rem;
         margin: 0 auto;
     }
-}
+} */
+

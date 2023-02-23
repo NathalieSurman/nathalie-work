@@ -15,7 +15,7 @@
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
-    margin-left: 285px;
+    margin-left: 240px;
 }
 
 
@@ -40,9 +40,68 @@
     margin-top: 1rem;
 }
 
+
+
+/*--- HERE IS FOR: tablets size or For Laptop or small-size screen:*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .about__me{
+        width: 50%;
+    }
+
+    .about__content p {
+        margin-top: 1rem;
+    }
+    .section__about {
+        margin-top: 30rem;
+        margin-left: 10rem;
+    }
+    .about__content a{
+     margin-left: 10rem;
+    }
+}
+
+
+
+/* ---- For Mobile Phones Portrait or Landscape View ----*/
+@media screen and (max-device-width: 640px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+        /* padding-left: 3rem; */
+    }
+    .about__me{
+        width: 60%;
+        /* margin: 2rem 1.2rem 3rem; */
+        margin-left: 10rem;
+    
+    }
+    .section__about{
+        padding-left: 5rem;
+    }
+
+    .about__content {
+    text-align: center;
+    }
+
+    .about__content p {
+        margin: 1.5rem 0;
+    }
+}
+
+
+
+
+
+
+/* NOT USING BUT MIGHT NEED IT SO I AM KEEPING IT HERE*/
 /* ----- HERE WILL BE THE MEDIA QUERIED FOR MEDIUM SIZE DEVICES----- */
 
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;
@@ -55,11 +114,12 @@
     .about__content p {
         margin: 1rem 0 1.5rem;
     }
-}
+} */
+
 
 /* ----- HERE WILL BE THE MEDIA QUERIED FOR SMALL SIZE DEVICES LIKE PHONES----- */
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
 
     .about__me{
         width: 65%;
@@ -73,4 +133,4 @@
     .about__content p {
         margin: 1.5rem 0;
     }
-}
+} */

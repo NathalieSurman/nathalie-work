@@ -124,7 +124,7 @@ img {
 
 /* ----- HERE WILL BE THE MEDIA QUERIED FOR MEDIUM SIZE DEVICES ----- */
 
-@media only screen and (max-width: 1024px) {
+@media only screen  and (min-width: 768px) and (max-width: 1024px) {
     .container {
     width: var(--container-width-md);
     }
@@ -136,7 +136,7 @@ img {
 
 /* ----- HERE WILL BE THE MEDIA QUERIED FOR SMALL SIZE DEVICES ----- */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-device-width: 640px) {
     .container {
     width: var(--container-width-sm);
     }

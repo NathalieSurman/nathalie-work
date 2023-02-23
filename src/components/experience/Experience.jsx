@@ -12,28 +12,28 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
-              <BsFillPatchCheckFill/>
+              {/* <BsFillPatchCheckFill/> */}
               <h4>HTML</h4>
             </article>
             <article className='experience__details'>
-              <BsFillPatchCheckFill/>
+              {/* <BsFillPatchCheckFill/> */}
               <h4>CSS</h4>
             </article>
             <article className='experience__details'>
-              <BsFillPatchCheckFill/>
+              {/* <BsFillPatchCheckFill/> */}
               <h4>JavaScript</h4>
             </article>
             <article className='experience__details'>
-              <BsFillPatchCheckFill/>
+              {/* <BsFillPatchCheckFill/> */}
               <h4>React</h4>
             </article>
 
             <article className='experience__details'>
-              <BsFillPatchCheckFill/>
+              {/* <BsFillPatchCheckFill/> */}
               <h4>Adobe Photoshop</h4>
             </article>
             <article className='experience__details'>
-              <BsFillPatchCheckFill/>
+              {/* <BsFillPatchCheckFill/> */}
               <h4>Adobe Illustrator</h4>
             </article>
           </div>
@@ -43,15 +43,15 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
-              <BsFillPatchCheckFill/>
+              {/* <BsFillPatchCheckFill/> */}
               <h4>MongoDB</h4>
             </article>
             <article className='experience__details'>
-              <BsFillPatchCheckFill/>
+              {/* <BsFillPatchCheckFill/> */}
               <h4>Express</h4>
             </article>
             <article className='experience__details'>
-              <BsFillPatchCheckFill/>
+              {/* <BsFillPatchCheckFill/> */}
               <h4>Node.js</h4>
             </article>
     
