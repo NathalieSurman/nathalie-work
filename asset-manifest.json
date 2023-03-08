@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nathalie-work/static/css/main.4601bec3.css",
+    "main.css": "/nathalie-work/static/css/main.34ea937c.css",
     "main.js": "/nathalie-work/static/js/main.28d6e222.js",
     "static/media/animeprj1.png": "/nathalie-work/static/media/animeprj1.0e65e6e1a12b18704711.png",
     "static/media/animeprj.png": "/nathalie-work/static/media/animeprj.b84b5b309e0ec1ec7814.png",
@@ -13,11 +13,11 @@
     "static/media/me3.jpg": "/nathalie-work/static/media/me3.ef540907aba62abfddf4.jpg",
     "static/media/resume.pdf": "/nathalie-work/static/media/resume.a281f6cf4b569f326383.pdf",
     "index.html": "/nathalie-work/index.html",
-    "main.4601bec3.css.map": "/nathalie-work/static/css/main.4601bec3.css.map",
+    "main.34ea937c.css.map": "/nathalie-work/static/css/main.34ea937c.css.map",
     "main.28d6e222.js.map": "/nathalie-work/static/js/main.28d6e222.js.map"
   },
   "entrypoints": [
-    "static/css/main.4601bec3.css",
+    "static/css/main.34ea937c.css",
     "static/js/main.28d6e222.js"
   ]
 }
