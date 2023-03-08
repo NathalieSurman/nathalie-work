@@ -44,8 +44,6 @@ body {
     color: var(--color-white);
     line-height: 1.7;
     background-image: url(../src/assets/bg.png);
-    /* background-repeat: no-repeat;
-    background-size: cover; */
     
     
 }
@@ -53,7 +51,8 @@ body {
 
 /* ----- HERE WILL BE THE GENERAL STYLES ------- */
 .container {
-    width: var(--container-width-lg);
+    /* I Changed it from max to min */
+    min-width: var(--container-width-lg); 
     margin: 0;
 }
 
@@ -117,7 +116,7 @@ a:hover {
 
 img {
     display: block;
-    width: 100%;
+    max-width: 100%;
     object-fit: cover;
 }
 
@@ -138,10 +137,11 @@ img {
 
 @media only screen and (max-device-width: 640px) {
     .container {
-    width: var(--container-width-sm);
+    min-width: var(--container-width-sm);
     }
 
     section > h2{
         margin-bottom: 2rem;
     }
 }
+

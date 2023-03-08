@@ -1,17 +1,15 @@
 .container.contact__container {
-    width: 58%;
+    min-width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
-    padding-left: 400px;
+
 }
 
 .contact__options {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-
-    /* margin-left: 10px; */
 }
 
 .contact__option {
@@ -63,66 +61,22 @@ input, textarea {
 
 
 
-/*--- HERE IS FOR: tablets size or For Laptop or small-size screen:*/
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .container.contact__container {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    
-    }
-    .contact__container{
-        margin-right: 10rem;
-    
-    }
-
-    .contact__options{
-        margin-right: 10rem;
-
-    }
-
-    .section__contact > h2{
-        margin-left: 18rem;
-    }
-    .section__contact > h5{
-        margin-left: 18rem;
-    }
-    form{
-        margin-right: 14rem;
-        
-    }
-}
-
-
-
-/* ---- For Mobile Phones Portrait or Landscape View ----*/
-@media screen and (max-device-width: 640px) {
-
-    .container.contact__container {
-        width: var( --container-width-sm);
-    
-    }
-}
-
-
-
-/* NOT USING BUT MIGHT NEED IT SO I AM KEEPING IT HERE*/
-
 /* ----- HERE WILL BE THE MEDIA QUERIED FOR MEDIUM SIZE DEVICES----- */
 
-/* @media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .container.contact__container {
         grid-template-columns: 1fr;
         gap: 2rem;
+    
     }
-} */
+}
 
 /* ----- HERE WILL BE THE MEDIA QUERIED FOR SMALL SIZE DEVICES LIKE PHONES----- */
-/* 
+
 @media only screen and (max-width: 600px) {
     .container.contact__container {
-        width: var( --container-width-sm);
+        min-width: var( --container-width-sm);
     
     }
 
-} */
+} 

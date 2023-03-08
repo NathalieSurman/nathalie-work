@@ -32,3 +32,13 @@ nav a.active {
     color: var(--color-bg);
 
 }
+
+
+/* ----- HERE WILL BE THE MEDIA QUERIED FOR SMALL SIZE DEVICES LIKE PHONES----- */
+
+@media only screen and (max-width: 600px) {
+
+    nav{
+    display: none;
+    }
+}
