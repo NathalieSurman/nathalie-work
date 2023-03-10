@@ -18,18 +18,18 @@ const Portfolio = () => {
             <img src={IMG1} alt="myfinalprj" />
           </div>
           <h3>Just The Scraps</h3>
-          <p>Just the Scraps is a free market place for fashion designers or people who love to sew but don't know what to do with their extra fabrics to donate these fabrics back to the community. 
-            This website allows you to post your fabrics, rolls of fabric, or scraps of fabric in hopes that others can make something out of nothing.</p>
+          <p>Just the Scraps is a free marketplace for fashion designers or people who love to sew but need help with what to do with their extra fabrics to donate them back to the community. 
+            This website allows you to post your fabrics, rolls of cloth, or fabric scraps, hoping others can make something out of nothing.</p>
           <a href="https://github.com/NathalieSurman/Just-The-Scraps" className='btn' target="_blank">Github</a>
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG2} alt="myfinalprj" />
           </div>
-          <p> ⚙️ Users can get items once they have login, they can also post their own fabric/scraps, Users can add their image and they can delete
+          <p> ⚙️ Users can get items once they have a login. They can also post their fabric/scraps, Users can add their images, and they can delete
             what they have posted.
           </p>
-          <p> ⚙️ Technologies used: HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, Git, GitHub</p>
+          <p> ⚙️ Technologies used: HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, Git, GitHub.</p>
           <p> ⚙️ API used: Auth0, and Cloudinary</p>
           <a href="https://github.com/NathalieSurman/Just-The-Scraps" className='btn' target="_blank">Github</a>
         </article>
@@ -39,15 +39,15 @@ const Portfolio = () => {
             <img src={IMG3} alt="anime" />
           </div>
           <h3>Anime Restaurant</h3>
-          <p>Anime Restaurant is a place for anime lovers who wish to order some yummy anime food.</p>
+          <p>Anime Restaurant is a place for anime lovers who wish to order yummy anime food.</p>
           <a href="https://github.com/NathalieSurman/react-fetch" className='btn' target="_blank">Github</a>
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG4} alt="animefood" />
           </div>
-            <p> ⚙️ Users can choose which anime food they wish to order, Uses can fill out their information, select which food, place the order
-              and finally the user will be redirected to a confirmation page</p>
+            <p> ⚙️ Users can choose which anime food they wish to order. Users can fill out their information, select which food they want, place an order,
+              and finally, they will be redirected to a confirmation page.</p>
             <p> ⚙️ Technologies used: HTML, CSS, JavaScript, React, Git, GitHub</p>
             <a href="https://github.com/NathalieSurman/react-fetch" className='btn' target="_blank">Github</a>
         </article>
@@ -57,7 +57,7 @@ const Portfolio = () => {
             <img src={IMG5} alt="group" />
           </div>
           <h3>The Night Watchers</h3>
-          <p>The night watchers is a E-commerce shop for watches and other tech. This was a group project, and due to privacy concerns,
+          <p>The Night Watchers is an E-commerce shop for watches and other tech. Please note that this was a group project, and due to privacy concerns,
             the source code is kept private.
           </p>
         </article>
@@ -65,9 +65,8 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG6} alt="groupprj" />
           </div>
-          <p> ⚙️ Users can view all items, add items to cart, add more to their cart or delete an item,
-            users can fill out their information before checkout, which will redirected them to a confirmation page once
-            the order is place.
+          <p> ⚙️ Users can view all items, add items to their cart, add more, or delete an item. In addition, 
+            users can fill out their information before checkout, and once the order is placed, they will be redirected to a confirmation page.
           </p>
           <p> ⚙️ Technologies used: HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, Git, GitHub</p>
         </article>

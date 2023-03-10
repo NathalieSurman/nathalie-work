@@ -14,9 +14,10 @@ const About = () => {
         </div>
       </div>
       <div className='about__content'>
-      <p>Hello! Thanks for scrolling this far!! 🤗 My name is Nathalie and I am a Web Developer with a recent background in Fashion Design.
+      <p>
+      Hello! Thanks for scrolling this far! 🤗 My name is Nathalie, and I am a Web Developer with a recent background in Fashion Design.
         I recently got my Full Stack Web Development certificate from Concordia University(cohort 20).
-        Other than coding, I spend most of my free time playing video games, reading manhwa, and baking. 🤓 
+        Besides coding, I spend most of my free time playing video games, reading manhwa, and baking. 🤓 
         </p>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
