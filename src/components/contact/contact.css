@@ -1,7 +1,9 @@
 .container.contact__container {
-    min-width: 58%;
+    /* width: 58%; */
+    min-width: 54%;
     display: grid;
-    grid-template-columns: 30% 58%;
+    /* grid-template-columns: 30% 58%; */
+    grid-template-columns: 30% 54%;
     gap: 12%;
 
 }
@@ -75,8 +77,7 @@ input, textarea {
 
 @media only screen and (max-width: 600px) {
     .container.contact__container {
-        min-width: var( --container-width-sm);
-    
+       /* width: var( --container-width-sm); */
+        width: 85%;
     }
-
 } 
